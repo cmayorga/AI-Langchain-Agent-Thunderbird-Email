@@ -1,0 +1,21 @@
+[project]
+name = "unsubscribe-agent"
+version = "0.1.0"
+description = "LangChain agent that finds newsletters with an Unsubscribe link across every Thunderbird account"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "colorama>=0.4.6",
+    "langchain>=1.4.6",
+    "langchain-anthropic>=1.7.6",
+    "langchain-mcp-adapters>=0.3.2",
+    "langchain-openai>=1.7.2",
+    "langgraph-cli[inmem]>=0.4.37",
+    "python-dotenv>=1.2.4",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

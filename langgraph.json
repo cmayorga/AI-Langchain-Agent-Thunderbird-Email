@@ -1,0 +1,10 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "unsubscribe_agent": "./src/unsubscribe_agent/agent.py:agent"
+  },
+  "ui": {
+    "unsubscribe_agent": "./src/unsubscribe_agent/ui.tsx"
+  },
+  "env": ".env"
+}
