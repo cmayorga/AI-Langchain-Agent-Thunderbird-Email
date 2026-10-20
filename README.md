@@ -1,4 +1,4 @@
-# Thunderbird unsubscribe agent
+# AI Langchain Agent For Thunderbird Emails
 
 A LangChain agent that scans every account configured in Thunderbird (through
 [Thunderbird-MCP](https://github.com/U-C4N/Thunderbird-MCP)), finds the emails that have an
