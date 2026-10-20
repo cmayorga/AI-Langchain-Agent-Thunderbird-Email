@@ -5,6 +5,8 @@ A LangChain agent that scans every account configured in Thunderbird (through
 "Unsubscribe" link (the `List-Unsubscribe` header or a link in the body) and shows you a list
 with a button for each sender that opens the unsubscribe page in another tab.
 
+<img width="1470" height="898" alt="image" src="https://github.com/user-attachments/assets/7d0e7d7b-6397-4724-a941-290b3e9d701c" />
+
 ## Flow
 
 ```
